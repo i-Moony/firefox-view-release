@@ -1,0 +1,77 @@
+:root {
+	color-scheme: dark;
+}
+
+body {
+	margin: 0;
+	border: 0;
+	width: 400px;
+	height: 280px;
+	background-color: #43424c;
+	color: #FFFFFF;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navigation {
+	width: 100%;
+	height: 30px;
+}
+
+#navigation-flex {
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	pointer-events: none;
+	user-select: none;
+}
+
+#navigation-flex {
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	border-block-start: 1px solid rgba(240, 240, 244, 0.2);
+	display: block;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#view-release select, #view-release input
+{
+	margin: 0 auto;
+}
+
+.bolder-separator
+{
+	border-block-start: 3px solid rgba(240, 240, 244, 0.2);
+}
+
+.bold-separator
+{
+	border-block-start: 2px solid rgba(240, 240, 244, 0.2);
+}
+
+select, input
+{
+	appearance: none;
+	border: 0;
+	outline: 0;
+	font: inherit;
+	width: 250px;
+	padding: 10px 0px 10px 10px;
+	border-radius: 8px;
+	box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	text-align: left;
+	scroll-behavior: smooth;
+}
+
+.hidden
+{
+	display: none;
+}

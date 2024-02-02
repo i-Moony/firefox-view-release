@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+
+    "name": "Firefox View Release",
+    "description": "Helps to get to the Release Notes for Firefox version that you need.",
+    "short_name": "Release Firefox",
+    "version": "1.0.0",
+
+    "background":
+    {
+        "scripts": ["js/background.js"],
+        "persistent": false,
+        "type": "module"
+    },
+
+    "permissions":
+    [
+        "alarms",
+        "storage",
+        "*://nucleus.mozilla.org/rna/releases/*"
+    ],
+
+	"browser_action":
+	{
+		"default_popup": "html/popup.html"
+	},
+
+    "icons":
+    {
+        "16": "./static/logo-16.png",
+        "32": "./static/logo-32.png",
+        "48": "./static/logo-48.png",
+        "64": "./static/logo-64.png",
+        "96": "./static/logo-96.png",
+        "128": "./static/logo-128.png",
+        "256": "./static/logo-256.png",
+        "512": "./static/logo-512.png",
+        "1024": "./static/logo-1024.png"
+    }
+}

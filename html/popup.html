@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firefox View Release</title>
+	<link rel="stylesheet" href="../css/popup.css" />
+</head>
+<body>
+	<nav id="navigation">
+		<div id="navigation-flex">
+			<p>View Mozilla Firefox's Releases</p>
+		</div>
+	</nav>
+	<hr class="bolder-separator">
+	<div id="container">
+		<form id="view-release">
+			<select id="select-platform" name="platform" form="view-release" required=true>
+				<option disabled hidden selected value="default">Select Platform</option>
+			</select>
+			<hr>
+			<select id="select-channel" name="channel" form="view-release" required=true>
+				<option disabled hidden selected value="default">Select Platform First</option>
+			</select>
+			<hr>
+			<select id="select-version" name="version" form="view-release" required=true>
+				<option disabled hidden selected value="default">Select Channel First</option>
+			</select>
+			<hr class="bold-separator">
+			<input id="go" type="submit" value="GO!" class="hidden"></input>
+		</form>
+	</div>
+	<script src="../js/popup.js" type="module"></script>
+</body>
+</html>
