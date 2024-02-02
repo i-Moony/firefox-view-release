@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "Firefox View Releases",
+    "name": "View Releases",
     "description": "Helps to get to the Release Notes for Firefox version that you need.",
-    "short_name": "Release Firefox",
+    "short_name": "Releases",
     "version": "1.0.0",
 
     "background":
